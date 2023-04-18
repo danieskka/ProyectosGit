@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="Estilo.css">
+</head>
+<body>
+
+    <header>
+        <h1 class="style1">POR FAVOR INTRODUZCA DATOS DEL VEHICULO A REGISTRAR</h1>
+    </header>
+
+    <form>
+
+        <p><b>¿Que Marca es el modelo del coche?</b>
+            <input type="radio" name="modelo" value="Audi"/>Audi & Volkswagen
+            <input type="radio" name="modelo" value="BMW"/>BMW & Mini
+            <input type="radio" name="modelo" value="Mercedes & MClaren"/>Mercedes & MClaren
+            <input type="radio" name="modelo" value="Otros (Toyota,Hyundai,etc..)"/>Otros (Toyota,Hyundai,etc..)
+        </p>
+
+        <p><b>Año de Matriculación</b>
+            <input type="date" name="datemax" max="2023-04-18" min="1980-01-01"/>
+        </p>
+
+        <div><i>Por favor suba los siguientes documentos: <b>Permiso de circulación de vehiculo, seguro en vigor</b></i>
+            <input type="file" name="files" multiple/>
+        </div>
+
+        <strong>Nombre del propietario de vehiculo
+            <input type="text" name="name" placeholder="Nombre Completo"/>
+        </strong>
+
+        <ol><b>Seleccione el video que mas le guste para promocionar su vehiculo</b>
+            <li><a href="carrera-de-coches-74.mp4" target="_blank">Carrera de coches</a></li>
+            <li><a href="mercedes-glk-1406.mp4" target="_blank">Mercedes GLK</a></li>
+            <li><a href="coches-de-choque-5626.mp4" target="_blank">Coches de Choque</a></li>
+        </ol>
+
+        
+        <audio controls>
+            <source src="trailer-sport-stylish-16073.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        
+        <textarea name=""myText rows="2" cols="40" Placeholder="Por favor describa el audio que acaba de escuchar"></textarea>
+
+        <div><input type="reset" value="Restablecer formulario"/></div>
+
+        <div><input type="checkbox" name="conditions" required/> He leído y acepto las condiciones.</div>
+
+        <div><button>Enviar</button></div>
+
+        <div class="style4"><img src="nathan-dumlao-fs_l0Xqlc90-unsplash.jpg" width="300" height="250"></div>
+
+        <div class="style2"><b>¡Agradecemos su colaboración, le contactaremos en seguida!</b></div>
+
+    </form>
+    
+</body>
+</html>

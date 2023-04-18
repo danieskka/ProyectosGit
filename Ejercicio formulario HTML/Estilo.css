@@ -1,0 +1,39 @@
+.style1 {
+    color: #429651;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline #0AF2DC wavy;
+    word-spacing: 15px;
+    text-shadow: 3px 3px 1px black;
+}
+
+* {
+    font-family: Verdana, Arial;
+    word-spacing: 8px;
+    background-color: rgb(196, 245, 156);
+    line-height : 45px;
+}
+
+.style2 {
+    text-align: center;
+}
+
+.style3 {
+    height: 120px;
+    width: 80px;
+    border: 2px solid #0A9BF2;
+    border-radius: 5%;
+    margin: 15px;
+}
+
+.style4 {
+    border: 15px solid #F2EA0A;
+    border-radius: 7%;
+    text-align: center;
+    margin: 5px;
+    padding: 10px 20px 12px 34px;
+    height: 250px;
+    width: 300px;
+    background-color: #429651;
+}
